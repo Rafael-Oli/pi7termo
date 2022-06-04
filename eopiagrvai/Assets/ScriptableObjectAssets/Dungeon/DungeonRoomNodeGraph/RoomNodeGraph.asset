@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7620666134024013759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657551c37e11c8c42b56bedbb9f551a3, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  id: 3c8bc979-1add-443f-abb3-48eec1af60cb
+  parentRoomNodeIDList: []
+  childRoomNodeIDList: []
+  roomNodeGraph: {fileID: 11400000}
+  roomNodeType: {fileID: 11400000, guid: 2a313bd0438482646b615da859bc8861, type: 2}
+  roomNodeTypeList: {fileID: 11400000, guid: b0e4bccc1f5220349843671d6f7e00d8, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 602
+    y: 299
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &-1239495026054316938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657551c37e11c8c42b56bedbb9f551a3, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  id: fad07f98-570d-495d-a75f-9869c346b8b5
+  parentRoomNodeIDList: []
+  childRoomNodeIDList: []
+  roomNodeGraph: {fileID: 11400000}
+  roomNodeType: {fileID: 11400000, guid: 2a313bd0438482646b615da859bc8861, type: 2}
+  roomNodeTypeList: {fileID: 11400000, guid: b0e4bccc1f5220349843671d6f7e00d8, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 317
+    y: 264
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba3320db4f95df4ba621859ebc4b035, type: 3}
+  m_Name: RoomNodeGraph
+  m_EditorClassIdentifier: 
+  roomNodeTypeList: {fileID: 0}
+  roomNodeList:
+  - {fileID: -1239495026054316938}
+  - {fileID: -7620666134024013759}
